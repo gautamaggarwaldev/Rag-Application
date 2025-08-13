@@ -1,0 +1,4 @@
+query,relevant_doc_ids
+"What is Python used for?","['python_intro.txt']"
+"How to write a loop?","['python_control_flow.txt']"
+"How to define a function in Python?","['python_functions.txt']"

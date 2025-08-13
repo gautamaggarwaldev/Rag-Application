@@ -1,0 +1,31 @@
+domain: "Education - Python Basics"
+competencies:
+  - id: intro
+    title: "Introduction to Python"
+    difficulty: easy
+    prerequisites: []
+    objectives:
+      - "Understand what Python is and where it's used"
+      - "Install Python and run a simple script"
+  - id: control_flow
+    title: "Control Flow"
+    difficulty: easy
+    prerequisites: [intro]
+    objectives:
+      - "Use if/elif/else statements"
+      - "Write for and while loops"
+  - id: functions
+    title: "Functions"
+    difficulty: medium
+    prerequisites: [control_flow]
+    objectives:
+      - "Define and call functions"
+      - "Use parameters and return values"
+defaults:
+  top_k: 4
+  chunk_size: 800
+  chunk_overlap: 120
+  vector_persist_dir: ".chroma"
+  generator: "flan-t5-small"   # or "openai"
+  embedder: "sentence-transformers/all-MiniLM-L6-v2"  # or "openai"
+  style_bias_weight: 0.3        # how much to bias resources by learning style

@@ -1,0 +1,3 @@
+Python is a high-level, interpreted programming language known for readability and versatility.
+Typical uses include web development, data analysis, automation, and AI/ML. To run Python,
+install it from python.org, verify with `python --version`, and execute scripts using `python app.py`.

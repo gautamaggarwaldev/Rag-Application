@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "type": "video",
+      "title": "What is Python?",
+      "url": "https://youtu.be/kqtD5dpn9C8"
+    },
+    {
+      "type": "article",
+      "title": "Installing Python",
+      "url": "https://realpython.com/installing-python/"
+    }
+  ],
+  "control_flow": [
+    {
+      "type": "video",
+      "title": "Python If-Else",
+      "url": "https://youtu.be/f4KOjWS_KZs"
+    },
+    {
+      "type": "article",
+      "title": "For & While Loops",
+      "url": "https://realpython.com/python-for-loop/"
+    }
+  ],
+  "functions": [
+    {
+      "type": "video",
+      "title": "Functions in Python",
+      "url": "https://youtu.be/NE97ylAnrz4"
+    },
+    {
+      "type": "article",
+      "title": "Defining Functions",
+      "url": "https://docs.python.org/3/tutorial/controlflow.html#defining-functions"
+    }
+  ]
+}

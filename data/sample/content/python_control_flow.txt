@@ -1,0 +1,7 @@
+Control flow in Python uses if/elif/else, for loops, and while loops to manage execution.
+Indentation defines blocks. Example:
+for x in range(3):
+    if x % 2 == 0:
+        print("even")
+    else:
+        print("odd")
