@@ -54,7 +54,7 @@ st.sidebar.title("⚙️ Settings")
 
 provider_embed = st.sidebar.selectbox(
     "Embedding provider",
-    ["gemini", "sentence-transformers", "openai"],
+    ["gemini"],
     index=0  # Gemini by default
 )
 
@@ -70,7 +70,7 @@ embed_model = st.sidebar.text_input(
 
 provider_gen = st.sidebar.selectbox(
     "Generator",
-    ["gemini", "flan-t5-small", "openai"],
+    ["gemini"],
     index=0  # Gemini by default
 )
 
@@ -276,7 +276,7 @@ Documents:
 # =========================
 # UI Tabs
 # =========================
-st.title("📚 EduRAG • Personalized Learning Path Demo (Gemini)")
+st.title("EduRAG • Personalized Learning Path Demo (Gemini)")
 
 tab_ingest, tab_profile, tab_style, tab_plan, tab_learn, tab_progress, tab_eval = st.tabs(
     ["Ingest", "Student Profile", "Learning Style", "Plan", "Learn / Chat", "Progress", "Evaluate"]
